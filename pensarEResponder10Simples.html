@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensar e Responder 10 - ADS - Carla de Oliveira Pessoa</title>
+    <style>
+        .formularioCss {
+            max-width: 200px;
+            font-style: bold;
+            text-align: justify;
+            font-family: Verdana, Tahoma, sans-serif;
+            color: midnightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Informações do Usuário</h2>
+
+    <form name="formCadastro" onsubmit="return validarFormulario()">
+        <div class="formularioCss">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="mail">
+            </div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Corrigir">
+
+        </div>
+    </form>
+
+    <script>
+        function validarFormulario(){
+            var nomePessoa = document.forms["formCadastro"]["nome"].value;
+            var sobrenomePessoa = document.forms["formCadastro"] ["sobrenome"].value;
+            var emailPessoa = document.forms["formCadastro"]["mail"].value;
+
+
+                alert("Informações Pessoais: "+ "\n" + nomePessoa +" " + sobrenomePessoa +" \n "+ emailPessoa);
+                
+            
+        }
+    </script>
+    
+</body>
+</html>

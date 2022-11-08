@@ -1,0 +1,594 @@
+<!DOCTYPE html>  
+
+ <html lang="en">  
+
+ <head>  
+
+     <meta charset="UTF-8">  
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+     <title>Bootstrap sample</title>  
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">  
+
+      <link rel="stylesheet" href="index.css">  
+
+ </head>  
+
+  
+ <body>  
+
+           <nav class="navbar navbar-dark bg-dark navbar-expand">  
+
+             <div class="container">  
+
+              
+
+               <span class="navbar-brand mb-0 h1">Start Bootstrap</span>  
+
+                 <ul class="navbar-nav">  
+
+                   <li class="nav-item">  
+
+                     <a class="nav-link active" aria-current="page" href="#">Home</a>  
+
+                   </li>  
+
+                   <li class="nav-item">  
+
+                    <a class="nav-link" href="#">Sobre</a>  
+
+                   </li>  
+
+                   <li class="nav-item">  
+
+                    <a class="nav-link" href="#">Contato</a>  
+
+                   </li>  
+
+                   <li class="nav-item">  
+
+                    <a class="nav-link" href="#" ">Serviços</a>  
+
+                   </li>  
+
+                 </ul>  
+
+             </div>  
+
+           </nav>  
+
+  <!--carousel-->     
+
+       <header id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">  
+
+         <div class="carousel-inner">  
+
+           <div class="carousel-item active">  
+
+             <div class=" banner bg-dark py-5 d-flex flex-column align-items-center mb-2">  
+
+               <div class="text-white text-center w-50">  
+
+                 <h1>Apresentar o seu negócio de uma forma totalmente nova.</h1>  
+
+                 <p class="text-white-50">Projete e personalize rapidamente sites móveis responsivos com bootstrap, o código aberto front-end mais popular da palavra!</p>  
+
+               </div>   
+
+             <!--Elementos fundamentais aula Trabalhando com botões -->  
+
+             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">  
+
+                <button class="btn btn-primary">Começar</button>  
+
+                <button class="btn btn-outline-light">Leia Mais</button>  
+
+             </div>  
+
+           </div>  
+
+           </div>  
+
+           <div class="carousel-item">  
+
+             <div class=" banner bg-dark py-5 d-flex flex-column align-items-center mb-2">  
+
+               <div class="text-white text-center w-50">  
+
+                 <h1>É tudo marketing. Vale a pena anunciar.</h1>  
+
+                 <p class="text-white-50">Projete e personalize rapidamente sites móveis responsivos com bootstrap, o código aberto front-end mais popular da palavra!</p>  
+
+               </div>   
+
+             
+
+             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">  
+
+                <button class="btn btn-primary">Começar</button>  
+
+                <button class="btn btn-outline-light">Leia Mais</button>  
+
+             </div>  
+
+           </div>  
+
+           </div>  
+
+           <div class="carousel-item ">  
+
+             <div class=" banner bg-dark py-5 d-flex flex-column align-items-center mb-2">  
+
+               <div class="text-white text-center w-50">  
+
+                 <h1> Vale a pena anunciar . Vale a pena anunciar..</h1>  
+
+                 <p class="text-white-50">Projete e personalize rapidamente sites móveis responsivos com bootstrap, o código aberto front-end mais popular da palavra!</p>  
+
+               </div>   
+ 
+
+             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">  
+
+                <button class="btn btn-primary">Começar</button>  
+
+                <button class="btn btn-outline-light">Leia Mais</button>  
+
+             </div>  
+
+           </div>  
+
+           </div>  
+
+         </div>  
+
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">  
+
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>  
+
+           <span class="visually-hidden">Previous</span>  
+
+         </button>  
+
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">  
+
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>  
+
+           <span class="visually-hidden">Next</span>  
+
+         </button>  
+
+       </div>  
+
+           <div class="text-center mb-5">  
+
+              <h2 class="fw-bolder">Pague à medida que crescer</h2>  
+
+              <p class="lead mb-0">Com o nossos planos de preços sem incômodo</p>  
+
+           </div>  
+
+        
+
+      <!--Prática com uso do BootStrap usando cards-->  
+
+           <main class="conteiner-fluid p-5">  
+
+   
+
+         
+
+          <!--1-Card-->  
+
+          <div class="row">  
+
+          <div class="col-sm-4">  
+
+          <div class="card">  
+
+          <div class="card-body">  
+
+               <h3 class="card-title small text-muted">  
+
+                 <b>Free</b>    
+
+               </h3>  
+
+               <p class="card-text">  
+
+                    <span class="display-3"><strong>$2</strong><span>  
+
+                    <span class="text-muted">/mês</span>  
+
+               </p>  
+
+                 <ul class="list-unstyled">  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                     <strong>Use</strong>   
+
+         
+
+                   </li>  
+
+                   <li class="mb-2">   
+
+                     <i class="bi bi-check"></i>  
+
+                     5GB storage  
+
+                   </li>  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Unlimited public projects  
+
+                   </li>  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Community acess  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">   
+
+                     <i class="bi bi-x"></i>  
+
+                     Unlimited private projects  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-x"></i>  
+
+                      Dedicated support  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-x"></i>  
+
+                      Free linked domain  
+
+                   </li>  
+
+                   
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-x"></i>  
+
+                     Monthly status reports  
+
+                   </li>  
+
+                 </ul>  
+                                                                       <!-- Link para modal -->
+               <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal"> Fechar o plano</a>  
+
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">  
+
+                 <div class="modal-dialog">  
+
+                   <div class="modal-content">  
+
+                     <div class="modal-header">  
+
+                       <h1 class="modal-title fs-5" id="exampleModalLabel">Detalhes de pagamento</h1>   
+
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  
+
+                     </div>  
+<!-- Corpo Modal -->
+                     <div class="modal-body">  
+
+                       <form>  
+
+                         <div class="mb-2 row">  
+
+                           <label for="holder_name" class="form-label col-4">Titular</label>  
+
+                           <input name="holder-name" type="text" class="form-control col">  
+
+                         </div>  
+
+                         <div class="mb-2 row">  
+
+                           <label for="card-number" class="form-label col-4">Card number</label>  
+
+                           <input name="card-number" type="text" class="form-control col">  
+
+                         </div>  
+
+                         <div class="mb-2 row">  
+
+                           <label for="expiration_date" class="form-label col-4">Expiration Date</label>  
+
+                           <input name="expiration_date" type="text" class="form-control col">  
+
+                         </div>  
+
+                         <div class="mb-2 row">  
+
+                           <label for="CVV" class="form-label col-4">CVV</label>  
+
+                           <input name="CVV" type="text" class="form-control col">  
+
+                         </div>  
+
+                       </form>  
+
+                     </div>  
+                              <!--Modal Botão -->
+                     <div class="modal-footer">  
+
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>  
+
+                       <button type="button" class="btn btn-primary">Salvar</button>  
+
+                     </div>  
+
+                   </div>  
+
+                 </div>  
+
+               </div>  
+
+             </div>  
+
+           </div>  
+
+         </div>  
+
+   
+
+         <!-- 2-Card-->  
+
+   
+
+         <div class="col-sm-4">  
+
+           <div class="card">  
+
+             <div class="card-body">  
+
+               <h3 class="card-title small text-muted">  
+
+                 <i class="bi bi-star-fill  text-warning" width="32" height="32" fill="currentColor"></i>  
+
+                   
+
+                 <b>PRO</b>   
+
+                
+
+               </h3>  
+
+               <p class="card-text">  
+
+                 <span class="display-3"><strong>$9</strong><span>  
+
+                  <span class="text-muted">/mês</span>  
+
+                 </p>  
+
+                 <ul class="list-unstyled">  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                     <strong>5 users</strong>   
+
+         
+
+                   </li>  
+
+                   <li class="mb-2">   
+
+                     <i class="bi bi-check"></i>  
+
+                     5GB storage  
+
+                   </li>  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Unlimited public projects  
+
+                   </li>  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Community acess  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">   
+
+                     <i class="bi bi-check"></i>  
+
+                     Unlimited private projects  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Dedicated support  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Free linked domain  
+
+                   </li>  
+
+                   
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-x"></i>  
+
+                     Monthly status reports  
+
+                   </li>  
+
+                 </ul>  
+
+               <a href="#" class="btn btn-primary w-100">Escolha o plano </a>  
+
+             </div>  
+
+           </div>  
+
+         </div>  
+
+   
+
+          <!-- Card-3 -->  
+
+         
+
+         <div class="col-sm-4">  
+
+           <div class="card">  
+
+             <div class="card-body">  
+
+               <h3 class="card-title small text-muted">  
+
+                 <b>ENTERPRISE</b>    
+
+               </h3>  
+
+               <p class="card-text">  
+
+                 <span class="display-3"><strong>$49</strong><span>  
+
+                  <span class="text-muted">/mês</span>  
+
+                 </p>  
+
+                 <ul class="list-unstyled">  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                     <strong>Unlimited users</strong>   
+
+           
+
+                   </li>  
+
+                   <li class="mb-2">   
+
+                     <i class="bi bi-check"></i>  
+
+                     5GB storage  
+
+                   </li>  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Unlimited public projects  
+
+                   </li>  
+
+                   <li class="mb-2">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Community acess  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">   
+
+                     <i class="bi bi-check"></i>  
+
+                     Unlimited private projects  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-check"></i>  
+
+                      Dedicated support  
+
+                   </li>  
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-check"></i>  
+
+                      <strong>Unlimited</strong> linked domains  
+
+                   </li>  
+
+                   
+
+                   <li class="mb-2 text-muted">  
+
+                     <i class="bi bi-check"></i>  
+
+                     Monthly status reports  
+
+                   </li>  
+
+                 </ul>  
+
+               <a href="#" class="btn btn-primary w-100">Escolha o plano</a>  
+
+             </div>  
+
+           </div>  
+
+         </div>  
+
+       </div>  
+
+         
+
+         
+
+       
+
+     </main>  
+
+ </body>  
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+
+ <script> 
+      alert('Abriu');
+</script>
+ </html>
