@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensar e Responder 14 - Carla de Oliveira Pessoa</title>
+<style>
+    .fieldset{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        width: 250px;
+    }
+</style>
+</head>
+<body>
+    <h3>Carla de Oliveira Pessoa - 2217122</h3>
+   
+   
+    <fieldset class="fieldset">
+        <legend>Resolução - P&R 14</legend>
+        <label>Valor 1:</label>
+        <input id="valor1" type="text"/><br>
+        <label>Valor 2: </label>
+        <input id="valor2" type="text"/><br>
+        <button id="somar" onclick="somarValores()">Somar</button>
+        <h4>Resposta da soma: </h4>
+        <div id="mensagem"> </div>
+    </fieldset>
+
+    <script>
+        function somarValores(){
+            var valor1 = document.getElementById("valor1");
+            var valor2 = document.getElementById("valor2");
+            var soma = Number(valor1.value) + Number(valor2.value);
+            if (soma > 10) {
+                mensagem.innerHTML = Number(soma) + " O numero é maior que 10.";  
+            } else{
+                mensagem.innerHTML = Number(soma) + " está ERRADO, é menor."
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
